@@ -1,0 +1,148 @@
+/*
+	TabStrip.XML Skin
+
+	http://acidjs.wemakesites.net/tabstrip-xml.html
+*/
+
+.XP.tabstripxml
+{
+	border: solid 1px #919b9c;
+}
+
+.XP.tabstripxml img.iconImage
+{
+	margin: 5px 6px 0 0;
+	width: 12px;
+	height: 12px;
+}
+
+.XP.tabstripxml .tab_buttons
+{
+	background: #ece9d8;
+	padding-top: 4px;
+	border-bottom: solid 1px #919b9c;
+}
+
+.XP.tabstripxml .tab_buttons.bottom_placement
+{
+	background: #ece9d8;
+	border-top: solid 1px #919b9c;
+	border-bottom: 0;
+	padding: 0 0 4px 0;
+}
+
+.XP.tabstripxml .tab_buttons ul
+{
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+}
+
+.XP.tabstripxml .tab_buttons.bottom_placement ul
+{
+	top: -1px;
+}
+
+.XP.tabstripxml .tab_buttons a,
+.XP.tabstripxml .tab_buttons a .tabStripOuterSpan,
+.XP.tabstripxml .tab_buttons a .tabStripOuterSpan .tabStripInnerSpan
+{
+	background-image: url('Sprite.gif');
+}
+
+.XP.tabstripxml .tab_buttons.bottom_placement a,
+.XP.tabstripxml .tab_buttons.bottom_placement a .tabStripOuterSpan,
+.XP.tabstripxml .tab_buttons.bottom_placement a .tabStripOuterSpan .tabStripInnerSpan
+{
+	background-image: url('SpriteBottom.gif');
+}
+
+.XP.tabstripxml .tab_buttons a,
+.XP.tabstripxml .tab_buttons a[disabled="disabled"]:hover
+{
+	color: black;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	outline: none;
+	background-position: right 0;
+	background-repeat: no-repeat;
+}
+
+.XP.tabstripxml .tab_buttons a:hover
+{
+	background-position: right -42px;
+}
+
+.XP.tabstripxml .tab_buttons a span
+{
+	line-height: 21px;
+	height: 21px;
+}
+
+.XP.tabstripxml .tab_buttons .tabStripOuterSpan,
+.XP.tabstripxml .tab_buttons a[disabled="disabled"]:hover .tabStripOuterSpan
+{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 3px;
+	margin-right: 3px;
+}
+
+.XP.tabstripxml .tab_buttons a:hover .tabStripOuterSpan
+{
+	background-position: 0 -42px;
+}
+
+.XP.tabstripxml .tab_buttons .tabStripInnerSpan,
+.XP.tabstripxml .tab_buttons a[disabled="disabled"]:hover .tabStripInnerSpan
+{
+	background-position: 0 -21px;
+	background-repeat: repeat-x;
+	padding: 0 4px;
+}
+
+.XP.tabstripxml .tab_buttons a:hover .tabStripInnerSpan
+{
+	background-position: 0 -63px;
+}
+
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton,
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton:hover
+{
+	background-position: right -84px;
+}
+
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton .tabStripOuterSpan,
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton:hover .tabStripOuterSpan
+{
+	background-position: 0 -84px;
+}
+
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton .tabStripInnerSpan,
+.XP.tabstripxml .tab_buttons .SelectedTabStripButton:hover .tabStripInnerSpan
+{
+	background-position: 0 -105px;
+}
+
+
+.XP.tabstripxml .tab_panes
+{
+	background: #fcfcfe;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+}
+
+.XP.tabstripxml .panelContentWrapper
+{
+	margin: 6px;
+}
+
+.XP.tabstripxml .tabCloseButton
+{
+	right: 0;
+	top: 0;
+}
+
+.XP.tabstripxml .asyncLoading
+{
+	background: url('Loading.gif') no-repeat center;
+}

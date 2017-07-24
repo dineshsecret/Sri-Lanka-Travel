@@ -1,0 +1,113 @@
+/*
+	AJAX Hotel Reservation Form [fine-tune stylesheet]
+
+	http://acidjs.wemakesites.net/hotel-reservation-form-js.html
+*/
+
+/* 
+	This file contains CSS rules
+	whose settings can be changed in order to fine-tune
+	the appearance of input boxes, combos, labels, etc
+	of AJAX Hotel Reservation Form.
+
+	For advanced settings, edit HotelReservationForm.AJAX/HotelReservationForm.AJAX/Scripts/HotelReservationForm.AJAX.css.
+*/
+
+/* width of the "print"  buttons */
+.HotelReservationFormJs #form-controls input
+{
+	min-width: 100px;
+}
+
+/* width of the input labels */
+.HotelReservationFormJs .text-box-list label
+{
+	width: 120px;
+}
+
+/* width of the input boxes */
+.HotelReservationFormJs .text-box-list input
+{
+	width: 300px;
+}
+
+/* width of the select boxes */
+.HotelReservationFormJs select
+{
+	width: 300px;
+}
+
+/* width of the "previous" and "next" buttons */
+.HotelReservationFormJs .step-list input
+{
+	min-width: 140px;
+}
+
+/* dimensions of the "additional notes" textbox */
+.HotelReservationFormJs #notes
+{
+	width: 300px;
+	height: 100px;
+}
+
+/* width of the datepicker inputs */
+div.HotelReservationFormJs input#check-in-date,
+div.HotelReservationFormJs #check-out-date
+{
+	width: 140px;
+}
+
+/* print styles */
+@media print 
+{
+	.HotelReservationFormJs h4,
+	.HotelReservationFormJs h5
+	{
+		display: block;
+	}
+
+	.HotelReservationFormJs,
+	.HotelReservationFormJs *
+	{
+		font-family: Georgia, "Times New Roman", Serif;
+		color: black;
+		text-align: left !important;
+		border: 0 !important;
+	}
+
+	.HotelReservationFormJs h6,
+	.HotelReservationFormJs p,
+	.HotelReservationFormJs .tab_buttons,
+	.HotelReservationFormJs .step-list,
+	.HotelReservationFormJs #form-controls,
+	.HotelReservationFormJs #mealscheckboxgroup,
+	.HotelReservationFormJs #options-controls li
+	{
+		display: none;
+	}
+
+	.HotelReservationFormJs,
+	.HotelReservationFormJs .ijs_wrapper,
+	.HotelReservationFormJs .ijs_wrapper *
+	{
+		border: 0 !important;
+		background: none !important;
+	}
+
+	.HotelReservationFormJs .tab_pane,
+	.HotelReservationFormJs li.print-visible
+	{
+		display: block !important;
+		height: auto !important;
+	}
+
+	.HotelReservationFormJs textarea
+	{
+		height: 600px !important;
+		width: 600px !important;
+		display: block !important;
+		border: 0 !important;
+		overflow: visible !important;
+		white-space: normal !important;
+	}
+}

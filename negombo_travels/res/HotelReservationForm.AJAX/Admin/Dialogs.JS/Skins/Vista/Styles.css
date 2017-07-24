@@ -1,0 +1,40 @@
+/*
+	Dialogs.JS 5.0 [skin stylesheet]
+	http://acidjs.wemakesites.net/dialogs-js.html
+*/
+
+.dialog-js
+{
+	background: url('BottomRight.png') no-repeat bottom right;
+	color: #000;
+}
+
+.dialog-wrapper
+{
+	background: url('VerticalRight.png') no-repeat right top;
+}
+
+.dialog-title
+{
+	background: url('DialogTitle.png') no-repeat left top;
+}
+
+.dialog-content
+{
+	background: url('ContentBgr.png') no-repeat left top;
+}
+
+.dialog-js em
+{
+	border-bottom: solid 1px #000;
+}
+
+.dialog-footer
+{
+	background: url('FooterBgr.png') no-repeat;
+}
+
+.dialog-js button
+{
+	background: transparent url('CloseButton.gif') no-repeat center;
+}

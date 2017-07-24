@@ -1,0 +1,135 @@
+/*
+	TabStrip.XML Skin
+
+	http://acidjs.wemakesites.net/tabstrip-xml.html
+*/
+
+.Mac.tabstripxml
+{
+	border: solid 1px #888889;
+}
+
+.Mac.tabstripxml img.iconImage
+{
+	margin: 2px 6px 0 0;
+	width: 14px;
+	height: 14px;
+}
+
+.Mac.tabstripxml .tab_buttons
+{
+	background: white url('Sprite.gif') repeat-x 0 -72px;
+	border-bottom: solid 1px #fff;
+	height: 26px;
+}
+
+.Mac.tabstripxml .tab_buttons.bottom_placement
+{
+	background: white url('SpriteBottom.gif') repeat-x 0 -72px;
+	height: 25px;
+	border-bottom: 0;
+}
+
+.Mac.tabstripxml .tab_buttons ul
+{
+	margin-top: 3px;
+	margin-left: 8px;
+}
+
+.Mac.tabstripxml .tab_buttons.bottom_placement ul
+{
+	margin-top: 5px;
+}
+
+.Mac.tabstripxml .tab_buttons a,
+.Mac.tabstripxml .tab_buttons a .tabStripOuterSpan,
+.Mac.tabstripxml .tab_buttons a .tabStripOuterSpan .tabStripInnerSpan
+{
+	background-image: url('Sprite.gif');
+}
+
+.Mac.tabstripxml .tab_buttons.bottom_placement a,
+.Mac.tabstripxml .tab_buttons.bottom_placement a .tabStripOuterSpan,
+.Mac.tabstripxml .tab_buttons.bottom_placement a .tabStripOuterSpan .tabStripInnerSpan
+{
+	background-image: url('SpriteBottom.gif');
+}
+
+.Mac.tabstripxml .tab_buttons a
+{
+	color: #404040;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	outline: none;
+	background-position: right 0;
+	background-repeat: no-repeat;
+}
+
+.Mac.tabstripxml .tab_buttons a[disabled="disabled"]:hover
+{
+	color: #404040;
+}
+
+.Mac.tabstripxml .tab_buttons a:hover
+{
+	color: black;
+}
+
+.Mac.tabstripxml .tab_buttons a span
+{
+	line-height: 18px;
+	height: 18px;
+}
+
+.Mac.tabstripxml .tab_buttons .tabStripOuterSpan
+{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 4px;
+	margin-right: 4px;
+}
+
+.Mac.tabstripxml .tab_buttons .tabStripInnerSpan
+{
+	background-position: 0 -18px;
+	background-repeat: repeat-x;
+	padding: 0 8px;
+}
+
+.Mac.tabstripxml .tab_buttons .SelectedTabStripButton
+{
+	background-position: right -36px;
+}
+
+.Mac.tabstripxml .tab_buttons .SelectedTabStripButton .tabStripOuterSpan
+{
+	background-position: 0 -36px;
+}
+
+.Mac.tabstripxml .tab_buttons .SelectedTabStripButton .tabStripInnerSpan
+{
+	background-position: 0 -54px;
+}
+
+
+.Mac.tabstripxml .tab_panes
+{
+	background: #fafafa;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+}
+
+.Mac.tabstripxml .panelContentWrapper
+{
+	margin: 6px;
+}
+
+.Mac.tabstripxml .tabCloseButton
+{
+	right: 0;
+	top: 0;
+}
+
+.Mac.tabstripxml .asyncLoading
+{
+	background: url('Loading.gif') no-repeat center;
+}

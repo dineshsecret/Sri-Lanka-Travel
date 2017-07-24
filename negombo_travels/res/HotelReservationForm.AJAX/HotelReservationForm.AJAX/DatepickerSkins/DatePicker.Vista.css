@@ -1,0 +1,22 @@
+/*
+	AJAX Hotel Reservation Form [datepicker skin stylesheet]
+
+	http://acidjs.wemakesites.net/hotel-reservation-form-js.html
+*/
+
+.ui-datepicker,
+.ui-datepicker-header,
+table.ui-datepicker-calendar td a.ui-state-default,
+table.ui-datepicker-calendar td .ui-state-highlight.ui-state-default,
+table.ui-datepicker-calendar th
+{
+	border: solid 1px #c0c0c0;
+	color: #000000;
+}
+
+.ui-datepicker-header,
+table.ui-datepicker-calendar td .ui-state-highlight.ui-state-default
+{
+	background: #c0c0c0;
+	color: #000000;
+}

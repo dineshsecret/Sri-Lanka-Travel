@@ -1,0 +1,361 @@
+/*
+	AJAX Hotel Reservation Form 5.0 [base stylesheet]
+
+	http://acidjs.wemakesites.net/hotel-reservation-form-js.html
+*/
+
+html, body,
+ul, li,
+h1, h2, h3, h4, h5, h6,
+button
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border: 0;
+}
+
+h1
+{
+	font: normal 32px/42px Garamond, "Times New Roman", Serif;
+	color: #898c95;
+	height: 42px;
+}
+
+#wrapper
+{
+	width: 962px;
+	margin: auto;
+}
+
+.toolbar
+{
+	
+	float: left;
+	width: 962px;
+	height: 47px;
+	margin: 0 0 8px 0;
+}
+
+#stats
+{
+	float: left;
+	width: 481px;
+	margin: 8px 0;
+	height: 33px;
+	-moz-user-select: none;
+}
+
+#stats,
+#stats *
+{
+	cursor: default;
+}
+
+#stats li
+{
+	font: normal 12px/16px Garamond, "Times New Roman", Serif;
+	color: #898c95;
+	text-transform: uppercase;
+	width: 230px;
+	float: left;
+	padding: 0 8px 2px 0;
+}
+
+#stats li span
+{
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#stats li .label
+{
+	width: 180px;
+	float: left;
+}
+
+#stats li .value
+{
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+	width: 24px;
+	text-align: center;
+	background: #ffffe0;
+	position: relative;
+	top: -2px;
+	line-height: 14px;
+	border: solid 1px #e6db55;
+	margin: 0 0 1px 0;
+}
+
+#stats li .value:hover
+{
+	color: black;
+}
+
+#buttons
+{
+	float: right;
+}
+
+#tabstrip_tab_panes_0 li.new,
+#tabstrip_tab_panes_1 li.confirm,
+#tabstrip_tab_panes_2 li.archive,
+#tabstrip_tab_panes_2 li.confirm,
+#tabstrip_tab_panes_3 li.deleted,
+#tabstrip_tab_panes_3 li.confirm
+{
+	display: none;
+}
+
+.info-bar
+{
+	background: #ffffe0 url('ico-info.png') no-repeat 2px center;
+	height: 32px;
+	padding: 4px 4px 4px 38px;
+	border: solid 1px #e6db55;
+}
+
+.info-bar-tab
+{
+	margin: 4px 0 0 0;
+	line-height: 36px;
+	background-image: url('ico-exlamation.png');
+	display: none;
+}
+
+.info-bar a
+{
+	color: blue;
+}
+
+/* reservations */
+.reservation-header
+{
+	width: 948px;
+	border: solid 1px #898c95;
+	cursor: pointer;
+	cursor: hand;
+	font: normal 14px/32px "Segoe UI", Arial, Sans-serif;
+	color: #898c95;
+	background: #f0f0f0 url('icons.png') no-repeat -8px -654px;
+	margin: 5px 0 0 0;
+}
+
+.reservation-header.open-reservation,
+.reservation-header.open-reservation:hover
+{
+	background-color: #898c95;
+	border-color: #898c95;
+	color: white;
+}
+
+.reservation-header:hover
+{
+	border-color: #4d4f55;
+	color: #4d4f55;
+}
+
+.reservation-header strong
+{
+	margin: 0 0 0 32px;
+}
+
+.reservation-details
+{
+	float: none;
+	clear: none;
+	width: 948px;
+	border: solid 1px #898c95;
+	border-top: 0;
+	display: none;
+}
+
+.controls ul
+{
+	width: 962px;
+	float: none;
+	clear: both;
+	height: 47px;
+}
+
+.controls li,
+#buttons li
+{
+	display: inline-block;
+	padding: 2px;
+	margin: 2px 0;
+}
+
+* + html .controls li,
+* + html #buttons li
+{
+	float: left;
+}
+
+.controls li button,
+#buttons li button
+{
+	width: 42px;
+	height: 42px;
+	background: url('button-square-bgr.png') no-repeat;
+}
+
+.controls li button img,
+#buttons li button img
+{
+	display: block;
+	margin: 5px 0 0 5px;
+}
+
+.reservation-details .reservation-loader
+{
+	padding: 4px 0 0 0;
+	background: url('person.png') no-repeat 95% center;
+}
+
+.reservation-details .reservation-loader li
+{
+	line-height: 32px;
+	font-size: 12px;
+	background: transparent url('icons.png') no-repeat;
+	padding-left: 40px;
+	cursor: pointer;
+	cursor: default;
+	color: #898c95;
+}
+
+.reservation-details .reservation-loader li:hover
+{
+	background-color: #f0f0f0;
+	color: #4d4f55;
+}
+
+.reservation-details .reservation-loader li.icon-id
+{
+	background-position: -10px -112px;
+}
+
+.reservation-details .reservation-loader li.icon-person
+{
+	background-position: -10px -12px;
+}
+
+.reservation-details .reservation-loader li.icon-email
+{
+	background-position: -10px -64px;
+}
+
+.reservation-details .reservation-loader li.icon-phone
+{
+	background-position: -10px -164px;
+}
+
+.reservation-details .reservation-loader li.icon-check-in
+{
+	background-position: -10px -219px;
+}
+
+.reservation-details .reservation-loader li.icon-out
+{
+	background-position: -10px -271px;
+}
+
+.reservation-details .reservation-loader li.icon-guests
+{
+	background-position: -10px -322px;
+}
+
+.reservation-details .reservation-loader li.icon-smoke
+{
+	background-position: -10px -374px;
+}
+
+.reservation-details .reservation-loader li.icon-children
+{
+	background-position: -10px -424px;
+}
+
+.reservation-details .reservation-loader li.icon-pets
+{
+	background-position: -10px -478px;
+}
+
+.reservation-details .reservation-loader li.icon-meals
+{
+	background-position: -10px -530px;
+}
+
+.reservation-details .reservation-loader li.icon-notes
+{
+	background-position: -10px -758px;
+}
+
+.reservation-details .reservation-loader li.icon-room
+{
+	background-position: -10px -654px;
+}
+
+.reservation-details .reservation-loader li.icon-charge
+{
+	background-position: -8px -702px;
+}
+
+.dumps
+{
+	display: none;
+}
+
+.tab_pane
+{
+	overflow-x: hidden !important;
+}
+
+.disabled
+{
+	filter: alpha(opacity=40);
+	-moz-opacity: .4;
+	opacity: .4;
+}
+
+.footer
+{
+	width: 962px;
+	float: none;
+	clear: both;
+}
+
+.footer li
+{
+	float: left;
+	margin-right: 4px;
+	font: normal 11px "Segoe UI", Arial, Sans-serif;
+	color: #898c95;
+	line-height: 22px;
+}
+
+.footer a
+{
+	color: #898c95;
+}
+
+@media print
+{
+	h1, .toolbar, .footer, .reservation-header, .tab_buttons, .info-bar, .controls
+	{
+		display: none;
+	}
+
+	.open-reservation
+	{
+		display: block;
+	}
+
+	.tabstripxml
+	{
+		border: 0 !important;
+	}
+}

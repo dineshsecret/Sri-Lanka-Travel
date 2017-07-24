@@ -1,0 +1,79 @@
+/*
+	Gallery.XML 2.0 Login Page Stylesheet [version 1.0]
+
+	http://acidjs.wemakesites.net/gallery-xml.html
+*/
+
+
+#login-panel
+{
+	width: 400px;
+	min-height: 168px;
+	padding: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -140px 0 0 -200px;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Sans-serif;
+	font-size: 11px;
+}
+
+#login-panel ul,
+#login-panel ul li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#login-panel h1
+{
+	color: #126873;
+	font-size: 18px;
+	padding: 0 0 6px 0;
+	margin: 0 0 4px 0;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #126873;
+	width: 100%;
+}
+
+#login-panel p
+{
+	margin: 4px 0;
+}
+
+#login-panel .ul
+{
+	margin: 8px 0;
+}
+
+#login-panel ul li input
+{
+	width: 260px;
+	vertical-align: middle;
+}
+
+#login-panel label
+{
+	display: inline-block;
+	width: 120px;
+	vertical-align: middle;
+}
+
+#login-panel .ul > li
+{
+	padding: 4px 0;
+}
+
+#login-panel select
+{
+	width: 130px;
+	vertical-align: middle;
+}
+
+#login-panel input[type="submit"]
+{
+	width: 160px;
+}

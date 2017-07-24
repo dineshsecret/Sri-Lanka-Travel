@@ -1,0 +1,209 @@
+/*
+	AJAX Hotel Reservation Form [base stylesheet]
+
+	http://acidjs.wemakesites.net/hotel-reservation-form-js.html
+*/
+
+/*
+	This file contains CSS rules that control
+	the appearance of the control within the tabstrip.
+	Please, modify carefully, otherwise AJAX Hotel Reservation Form
+	may stop working properly.
+
+	For express settings and fine-tuning you can edit HotelReservationForm.AJAX/HotelReservationForm.AJAX/HotelReservationForm.AJAX.Fine.Tune.css.
+*/
+
+.HotelReservationFormJs h4,
+.HotelReservationFormJs h5
+{
+	display: none;
+}
+
+.HotelReservationFormJs h6.pane-title
+{
+	padding: 0 0 4px 0;
+	margin: 0 0 8px 0;
+	font: normal 16px/20px "Segoe UI", Arial, Verdana;
+	border-bottom: solid 1px black;
+}
+
+.HotelReservationFormJs p.info-bar
+{
+	padding: 0;
+	margin: 0 0 12px 0;
+	font: normal 11px "Segoe UI", Arial, Verdana;
+}
+
+.HotelReservationFormJs .text-box-list label
+{
+	display: inline-block;
+	margin: 0 4px 0 0;
+	text-align: right;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.HotelReservationFormJs ul,
+.HotelReservationFormJs li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.HotelReservationFormJs #hidden-form-controls,
+.HotelReservationFormJs #form-controls
+{
+	float: none;
+	clear: both;
+	width: 100%;
+}
+
+.HotelReservationFormJs #hidden-form-controls,
+.HotelReservationFormJs #paypal-form
+{
+	display: none;
+}
+
+.HotelReservationFormJs #form-controls
+{
+	padding: 4px 0;
+	height: 22px;
+}
+
+.HotelReservationFormJs #form-controls ul
+{
+	float: right;
+	margin-right: 4px;
+}
+
+.HotelReservationFormJs #form-controls li
+{
+	float: left;
+	margin: 0 0 0 4px;
+}
+
+.HotelReservationFormJs .tab_panes .text-box-list > li
+{
+	margin: 0 0 6px 0;
+}
+
+.HotelReservationFormJs .step-list li
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+
+.HotelReservationFormJs .tab_pane
+{
+	position: relative;
+}
+
+.HotelReservationFormJs .step-list
+{
+	float: left;
+	bottom: 4px;
+	position: absolute;
+}
+
+.HotelReservationFormJs ul.legend li
+{
+	padding: 4px 0;
+	font-size: 10px;
+}
+
+.HotelReservationFormJs .validator
+{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: transparent url('ValidationSprite.png') no-repeat;
+	text-indent: -9999px;
+}
+
+.HotelReservationFormJs .validator.valid
+{
+	background-position: center -16px;
+}
+
+.HotelReservationFormJs .validator.invalid
+{
+	background-position: center -32px;
+}
+
+.HotelReservationFormJs li#book-now-button-li input
+{
+	min-width: 200px;
+}
+
+.HotelReservationFormJs .big-tick
+{
+	min-height: 100px;
+	background: url('BigTick.png') no-repeat left 4px;
+	padding: 8px 0 0 80px;
+}
+
+.HotelReservationFormJs .paypal-payment
+{
+	text-align: center;
+}
+
+.HotelReservationFormJs .paypal-payment a
+{
+	display: block;
+	width: 101px;
+	height: 64px;
+	background: url('PayPalButton.png') no-repeat center;
+	text-indent: -9999px;
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+}
+
+*+html .HotelReservationFormJs .paypal-payment a
+{
+	float: left;
+}
+
+.ui-datepicker-trigger
+{
+	display: inline-block;
+	margin: -2px 0 0 2px;
+	vertical-align: middle;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+	cursor: hand;
+	background: url('DatePicker.png') no-repeat center;
+}
+
+/* IE8 */
+.ui-datepicker-trigger
+{
+	position: relative\9;
+	top: -16px\9;
+	left: -4px\9;
+}
+
+/* IE7 */
+*+html .ui-datepicker-trigger
+{
+	position: relative;
+	top: -19px !important;
+}
+
+/* IE7 */
+*+html div.HotelReservationFormJs input#check-in-date,
+*+html div.HotelReservationFormJs #check-out-date
+{
+	padding-left: 22px;
+}
+
+/* IE8 */
+div.HotelReservationFormJs input#check-in-date,
+div.HotelReservationFormJs #check-out-date
+{
+	padding-left: 22px\9;
+}

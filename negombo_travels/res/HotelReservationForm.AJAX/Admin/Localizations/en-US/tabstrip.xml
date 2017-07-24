@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabstripxml sortable="false" buttonsposition="top" skin="Vista" mode="static" enabled="true" width="962" tabpaneheight="1024" defaultopentab="0" buttonwidth="auto" displayicon="true">
+	<tabs title="New Reservations" onclientclick="" iconurl="Styles/ico-new.png" visible="true" enabled="true" source="none"><![CDATA[
+		<div class="info-bar">This is the list where the new reservations are stored. When you send a confirmation email, the reservation will be automatically moved to the <strong>Confirmed Reservations</strong> tab. You can also use the <strong>Print</strong>, <strong>Archive</strong> and <strong>Delete</strong> buttons associated with each reservation. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div class="info-bar info-bar-tab" id="new-reservations-info">There are no reservations in <strong>New Reservations</strong> tab. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div id="new-reservations"></div>
+	]]></tabs>
+	<tabs title="Confirmed Reservations" onclientclick="" iconurl="Styles/ico-send-mail.png" visible="true" enabled="true" source="none"><![CDATA[
+		<div class="info-bar">This is the list where the confirmed reaservations are stored. You can also use the <strong>Print</strong>, <strong>Move to New</strong>, <strong>Archive</strong> and <strong>Delete</strong> buttons associated with each reservation. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div class="info-bar info-bar-tab" id="confirmed-reservations-info">There are no reservations in <strong>Confirmed Reservations</strong> tab. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div id="confirmed-reservations"></div>
+	]]></tabs>
+	<tabs title="Reservations Archive" onclientclick="" iconurl="Styles/ico-archive.png" visible="true" enabled="true" source="none"><![CDATA[
+		<div class="info-bar">This is the list where you can keep an archive with past reservations. You can also use the <strong>Print</strong>, <strong>Move to New</strong> and <strong>Delete</strong> buttons associated with each reservation. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div class="info-bar info-bar-tab" id="archived-reservations-info">There are no reservations in <strong>Reservations Archive</strong> tab. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div id="archived-reservations"></div>
+	]]></tabs>
+	<tabs title="Deleted Reservations" onclientclick="" iconurl="Styles/ico-delete.png" visible="true" enabled="true" source="none"><![CDATA[
+		<div class="info-bar">This is the list where the deleted reservations are stored. You can also use the <strong>Print</strong>, <strong>Move to New</strong> and <strong>Archive</strong> buttons associated with each reservation. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>. Click <a href="javascript:void(0)" onclick="admin.purge();" title="Permanently delete all reservations in this tab">here to delete all reservations in this tab permanently</a>.</div>
+		<div class="info-bar info-bar-tab" id="deleted-reservations-info">There are no reservations in <strong>Deleted Reservations</strong> tab. If you have moved a reservation to this tab, but cannot see it, click <a href="javascript:void(0)" onclick="admin.listreservations()" title="Click to get reservations list manually">here to load the list manually</a>.</div>
+		<div id="deleted-reservations"></div>
+	]]></tabs>
+</tabstripxml>

@@ -1,0 +1,460 @@
+/*
+	Forms.JS Base CSS
+	http://acidmartin.wemakesites.net/#formsjs
+*/
+
+.FormsJs
+{
+	font: normal 12px "Segoe UI", Arial, Verdana;
+}
+
+.FormsJs .real-element
+{
+	position: absolute;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-moz-opacity: 0;
+}
+
+.FormsJs .element-disabled,
+.select-disabled
+{
+	filter: alpha(opacity=50);
+	-moz-opacity: .5;
+	opacity: .5;
+}
+
+/* skinned buttons styles */
+.FormsJs.InputButtons a.skinned-button,
+.FormsJs.InputButtons a.skinned-button input,
+.FormsJs.InputButtons a.skinned-button button
+{
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 22px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	cursor: default;
+	background-color: transparent
+	background-repeat: no-repeat;
+}
+
+.FormsJs.InputButtons a.skinned-button,
+.FormsJs.InputButtons a.skinned-button.element-disabled:hover
+{
+	padding-left: 4px;
+	background-position: 0 -22px;
+	line-height: 22px;
+}
+
+.FormsJs.InputButtons a.skinned-button input,
+.FormsJs.InputButtons a.skinned-button button,
+.FormsJs.InputButtons a.skinned-button.element-disabled:hover input,
+.FormsJs.InputButtons a.skinned-button.element-disabled:hover button
+{
+	padding-right: 4px;
+	outline: none;
+	background-position: right 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font: normal 12px/22px "Segoe UI", Arial, Verdana;
+}
+
+.FormsJs.InputButtons a.skinned-button:hover
+{
+	background-position: 0 -66px;
+}
+
+.FormsJs.InputButtons a.skinned-button:hover *
+{
+	background-position: right -44px;
+}
+/* end of skinned buttons styles */
+
+/* skinned checkboxes styles */
+.FormsJs label.skinned-checkbox 
+{
+	line-height: 20px;
+	vertical-align: middle;
+	width: 20px;
+	display: inline-block;
+}
+
+.FormsJs label.checkbox-checked
+{
+	background-position: 0 -422px;
+}
+
+.FormsJs label.checkbox-unchecked
+{
+	background-position: 0 -2px;
+}
+
+.FormsJs label.checkbox-checked:hover
+{
+	background-position: 0 -642px;
+}
+
+.FormsJs label.checkbox-unchecked:hover
+{
+	background-position: 0 -202px;
+}
+/* end of skinned checkboxes styles */
+
+/* skinned radiobuttons styles */
+.FormsJs label.skinned-radio 
+{
+	line-height: 20px;
+	vertical-align: middle;
+	width: 20px;
+	display: inline-block;
+}
+
+.FormsJs label.radio-checked
+{
+	background-position: 0 -442px;
+}
+
+.FormsJs label.radio-unchecked
+{
+	background-position: 0 -2px;
+}
+
+.FormsJs label.radio-checked:hover
+{
+	background-position: 0 -642px;
+}
+
+.FormsJs label.radio-unchecked:hover
+{
+	background-position: 0 -222px;
+}
+/* end of skinned radiobuttons styles */
+
+/* skinned input box styles */
+
+.FormsJs .ijs_wrapper
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 2px;
+}
+
+.FormsJs .ijs_wrapper b
+{
+	font-weight: normal;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	display: block;
+}
+
+.FormsJs .ijs_wrapper b input,
+.FormsJs .ijs_wrapper b textarea
+{
+	border: 0;
+	display: block;
+	width: 100%;
+	font: normal 12px "Segoe UI", Arial, Verdana;
+	padding: 0;
+	margin: 0;
+}
+
+.FormsJs .ijs_wrapper textarea
+{
+	overflow: auto;
+}
+
+.FormsJs .ijs_wrapper b input
+{
+	overflow: hidden;
+	background: transparent;
+}
+
+.FormsJs .ijs-second-top-border,
+.FormsJs .ijs-third-top-border,
+.FormsJs .ijs-second-bottom-border,
+.FormsJs .ijs-third-bottom-border,
+.FormsJs b.ijs-input-placeholder
+{
+	border-style: solid;
+	border-width: 1px;
+	border-top: 0;
+	border-bottom: 0;
+	margin-left: -1px;
+}
+
+.FormsJs .ijs-third-top-border
+{
+	margin-left: -2px;
+	padding: 0 1px;
+}
+
+.FormsJs .ijs-second-bottom-border
+{
+	margin-left: -1px;
+}
+
+.FormsJs .ijs-third-bottom-border
+{
+	margin-left: -2px;
+	padding: 0 1px;
+}
+
+.FormsJs b.ijs-input-placeholder
+{
+	margin-left: -2px;
+	padding-right: 2px;
+}
+
+.FormsJs .ijs_input
+{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	resize: none;
+	border-style: solid;
+	border-width: 1px;
+	font: normal 13px "Trebuchet MS", Arial, Verdana;
+	padding: 0;
+	margin: 0;
+}
+
+.FormsJs .moz_ijs_disabled
+{
+	-moz-opacity: .6;
+	opacity: .6;
+	background: white;
+}
+/* end of input box styles */
+
+/* skinned file input styles */
+.file-filename,
+.skinned-file-input
+{
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.file-filename
+{
+	
+}
+/* end of skinned file input styles */
+
+/* combo box styles */
+.srjs-wrapper
+{
+	display: inline-block;
+	font: normal 11px "Segoe UI", Arial, Verdana, Sans-serif;
+	margin: 0 5px 0 0;
+	vertical-align: top;
+}
+
+.srjs-wrapper *
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	cursor: default;
+	text-decoration: none;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.srjs-header a.srjs-select-box span span,
+.select-disabled .srjs-header .srjs-select-box:hover span span
+{
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 20px;
+	background-image: none;
+}
+
+.srjs-header a,
+.srjs-header a span,
+.srjs-options ul a:hover,
+.srjs-options ul .srjs-options-selected
+{
+	background-repeat: no-repeat;
+}
+
+.srjs-header a,
+.select-disabled .srjs-header a:hover
+{
+	display: block;
+	line-height: 22px;
+	height: 22px;
+	background-position: 0 0;
+}
+
+.srjs-header a:hover
+{
+	background-position: 0 -44px;
+}
+
+.srjs-header a span,
+.select-disabled .srjs-header a:hover span
+{
+	display: block;
+	line-height: 22px;
+	height: 22px;
+	background-position: right -22px;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
+}
+
+.srjs-header a.srjs-select-box span span
+{
+	margin-left: -6px !important;
+}
+
+.srjs-header a:hover span
+{
+	background-position: right -66px;
+}
+
+.srjs-options
+{
+	position: absolute;
+	z-index: 10000;
+}
+
+.srjs-options *
+{
+	display: block;
+	line-height: 18px;
+}
+
+.srjs-options ul a
+{
+	padding: 0 0 0 0;
+	margin: 1px;
+}
+
+.srjs-options ul a .srjsInnerSpan
+{
+	padding: 0 0 0 5px;
+}
+
+.srjs-options ul a:hover,
+.srjs-options ul .srjs-options-selected
+{
+	background-position: 0 -580px;
+}
+
+.srjs-wrapper,
+.srjs-wrapper *
+{
+	-moz-user-select: none;
+}
+
+.srjs-wrapper a
+{
+	outline: none;
+}
+
+.srjs-select-box
+{
+	display: block;
+}
+
+.srjs-real-select
+{
+	display: none;
+	vertical-align: middle;
+}
+
+.select-disabled .srjs-options
+{
+	display: none !important;
+}
+
+.srjsLabel
+{
+	padding: 0 4px 0 0;
+}
+
+* html .srjs-wrapper,
+*+html .srjs-wrapper
+{
+	display: inline;
+	vertical-align: middle;
+}
+/* end of combo box styles */
+
+/* webkit styling for checkboxes and radiobuttons, pure CSS */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .FormsJs.CheckBoxes label
+	{
+		vertical-align: middle;
+	}
+
+    .FormsJs.CheckBoxes	input[type="checkbox"],
+	.FormsJs.RadioButtons	input[type="radio"]
+	{
+		-khtml-appearance: none;
+		width: 20px;
+		height: 20px;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
+	
+	.FormsJs.CheckBoxes input[type="checkbox"]:checked:disabled,
+	.FormsJs.CheckBoxes input[type="checkbox"]:disabled,
+	.FormsJs.RadioButtons input[type="radio"]:checked:disabled,
+	.FormsJs.RadioButtons input[type="radio"]:disabled
+	{
+		opacity: .5;
+	}
+
+	.FormsJs.CheckBoxes input[type="checkbox"]:disabled:hover
+	{
+		background-position: 0 0;
+	}
+
+	.FormsJs.CheckBoxes input[type="checkbox"]:hover
+	{
+		background-position: 0 -200px;
+	}
+
+	.FormsJs.CheckBoxes input[type="checkbox"]:checked,
+	.FormsJs.CheckBoxes input[type="checkbox"]:checked:disabled:hover
+	{
+		background-position: 0 -420px;
+	}
+
+	.FormsJs.CheckBoxes input[type="checkbox"]:checked:hover
+	{
+		background-position: 0 -640px;
+	}
+
+	.FormsJs.RadioButtons input[type="radio"],
+	.FormsJs.RadioButtons input[type="radio"]:disabled:hover
+	{
+		background-position: 0 -2px;
+	}
+
+	.FormsJs.RadioButtons input[type="radio"]:hover
+	{
+		background-position: 0 -222px;
+	}
+
+	.FormsJs.RadioButtons input[type="radio"]:checked,
+	.FormsJs.RadioButtons input[type="radio"]:checked:disabled:hover
+	{
+		background-position: 0 -442px;
+	}
+
+	.FormsJs.RadioButtons input[type="radio"]:checked:hover
+	{
+		background-position: 0 -642px;
+	}
+}

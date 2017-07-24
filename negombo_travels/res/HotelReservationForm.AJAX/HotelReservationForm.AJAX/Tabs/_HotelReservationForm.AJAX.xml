@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabstripxml>
+	<tabs title="Contact Information" visible="true" enabled="true" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/contact-information.html" />
+	<tabs title="Reservation Details" visible="true" enabled="false" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/reservation-details.html" />
+	<tabs title="Meals" visible="true" enabled="false" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/meals.html" />
+	<tabs title="Options" visible="true" enabled="false" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/options.html" />
+	<tabs title="Please, wait..." visible="false" enabled="true" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/submitting-reservation.html" />
+	<tabs title="Success" visible="false" enabled="true" source="HotelReservationForm.AJAX/HotelReservationForm.AJAX/Tabs/finished.html" />
+</tabstripxml>

@@ -1,0 +1,126 @@
+/*
+	TabStrip.XML Base Stylesheet
+
+	http://acidjs.wemakesites.net/tabstrip-xml.html
+*/
+
+.tabstripxml
+{
+	float: left;
+}
+
+.tabstripxml .tab_buttons
+{
+	float: left;
+	width: 100%;
+}
+
+.tabstripxml .tab_buttons a
+{
+	text-decoration: none;
+	text-align: center;
+	cursor: default;
+}
+
+.tabstripxml .tab_panes
+{
+	float: left;
+	width: 100%;
+}
+
+.tabstripxml .tab_buttons ul,
+.tabstripxml .tab_buttons ul li
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	_display: inline-block;
+}
+
+.tabstripxml .tab_buttons ul li
+{
+	position: relative;
+}
+
+.TabPanesHidden,
+.tabstripxml .tab_panes .tab_pane
+{
+	display: none;
+	overflow: auto;
+}
+
+.TabPanesVisible,
+.tabstripxml .tab_buttons ul li a,
+.tabstripxml .tab_buttons ul li a span
+{
+	display: block !important;
+	min-width: 40px;
+	_display: inline-block !important;
+}
+
+.tabstripxml .tab_buttons ul li img.iconImage
+{
+	display: inline-block;
+	float: left;
+	border: 0;
+}
+
+.tabstripxml .tabCloseButton
+{
+	display: block;
+	position: absolute;
+	height: 11px;
+	width: 11px;
+	line-height: 11px;
+	background: url('Close.gif');
+	text-indent: -9999px;
+	cursor: hand;
+	font-size: 1px;
+	text-align: center;
+	z-index: 9999999;
+}
+
+.tabstripxml .closedTabStripElement
+{
+	display: none;
+}
+
+.tabstripxml .tabTextContainer
+{
+	display: inline-block;
+	float: left;
+	/*width: 100%;*/
+}
+
+.tabstripxml .TabButtonDisabled
+{
+	filter: alpha(opacity=40);
+	-moz-opacity: .4;
+	opacity: .4;
+	cursor: no-drop;
+}
+
+.tabstripxml .TabButtonDisabled *
+{
+	cursor: no-drop;
+}
+
+p.tabstrip-error
+{
+	font: normal 11px/22px "Segoe UI", Arial, Sans-serif;
+	border: solid 1px #d7d7d7;
+	background: #ffffe0 url('Exclamation.png') no-repeat 2px center;
+	color: red;
+	padding: 0 0 0 22px;
+	-moz-user-select: none;
+	cursor: default;
+	margin: 2px;
+}
+
+.ui-sortable-helper
+{
+	filter: alpha(opacity=60);
+	opacity: .6;
+	-moz-opacity: .6;
+}

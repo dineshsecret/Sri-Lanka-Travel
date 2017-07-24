@@ -1,0 +1,124 @@
+/*
+	Forms.JS Skin
+	http://acidmartin.wemakesites.net/#formsjs
+*/
+
+/* skinned buttons styles */
+.FormsJs_Vista.InputButtons .skinned-button,
+.FormsJs_Vista.InputButtons .skinned-button *
+{
+	background: transparent url('Buttons.png') no-repeat;
+}
+/* end of skinned buttons styles */
+
+/* skinned checkbox styles */
+.FormsJs_Vista .skinned-checkbox 
+{
+	background: transparent url('CheckBoxes.png') no-repeat;
+}
+/* end of skinned checkbox styles */
+
+/* skinned radiobutton styles */
+.FormsJs_Vista .skinned-radio 
+{
+	background: transparent url('RadioButtons.gif') no-repeat;
+}
+/* end of skinned radiobutton styles */
+
+/* skinned input boxes styles */
+.FormsJs_Vista.InputBoxes .ijs_wrapper
+{
+	background: white;
+}
+
+.FormsJs_Vista.InputBoxes .ijs-first-top-border,
+.FormsJs_Vista.InputBoxes .ijs-first-bottom-border
+{
+	background-color: #abadb3;
+}
+
+.FormsJs_Vista.InputBoxes .ijs-second-top-border,
+.FormsJs_Vista.InputBoxes .ijs-third-top-border,
+.FormsJs_Vista.InputBoxes .ijs-second-bottom-border,
+.FormsJs_Vista.InputBoxes .ijs-third-bottom-border,
+.FormsJs_Vista.InputBoxes b.ijs-input-placeholder,
+.FormsJs_Vista.InputBoxes .ijs_input
+{
+	border-color: #abadb3;
+}
+
+.FormsJs_Vista.InputBoxes .ijs_wrapper input,
+.FormsJs_Vista.InputBoxes .ijs_wrapper textarea
+{
+	color: #000;
+}
+
+.FormsJs_Vista.InputBoxes .ijs_wrapper:hover *
+{
+	border-color: #6d7079;
+}
+
+.FormsJs_Vista.InputBoxes .ijs_wrapper:hover .ijs-first-top-border,
+.FormsJs_Vista.InputBoxes .ijs_wrapper:hover .ijs-first-bottom-border
+{
+	background: #6d7079 !important;
+}
+
+.FormsJs_Vista.InputBoxes .ijs_input:hover
+{
+	border-color: #6d7079 !important;
+}
+/* end of skinned input box styles */
+
+/* combo box styles */
+.ComboVista .srjs-header a,
+.ComboVista .srjs-header a span,
+.ComboVista .srjs-options ul a:hover,
+.ComboVista .srjs-options ul .srjs-options-selected
+{
+	background-image: url('ComboBox.png');
+}
+
+.ComboVista .srjs-header a span,
+.ComboVista.srjsDisabled .srjs-header a:hover span
+{
+	color: black;
+}
+
+.ComboVista .srjs-header a:hover span
+{
+	color: #3c7fb1;
+}
+
+.ComboVista .srjs-options
+{
+	background: white;
+	border: solid 1px #9d9d9d;
+}
+
+.ComboVista .srjs-options ul a
+{
+	color: black;
+	border: solid 1px white;
+}
+
+.ComboVista .srjs-options ul a:hover,
+.ComboVista .srjs-options ul .srjs-options-selected
+{
+	border: solid 1px #3c7fb1;
+}
+/* end of combo box styles */
+
+/* webkit styling for checkboxes and radiobuttons, pure CSS */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.FormsJs.CheckBoxes.FormsJs_Vista input[type="checkbox"]
+	{
+		background-image: url('CheckBoxes.png');
+	}
+
+	.FormsJs.RadioButtons.FormsJs_Vista input[type="radio"]
+	{
+		background-image: url('RadioButtons.gif');
+	}
+}

@@ -1,0 +1,115 @@
+html, body, form
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+code, pre, p
+{
+	float: none;
+	clear: both;
+}
+
+h4
+{
+	border-bottom: solid 1px #3b3b3b;
+}
+
+body
+{
+	color: #3b3b3b;
+	background: white;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 12px;
+}
+
+.demoHeader,
+.demoContent
+{
+	padding: 16px 0 0 16px;
+}
+
+.demoHeader
+{
+	background: #3b3b3b;
+	padding: 16px;
+}
+
+h2
+{
+	margin: 16px;
+	margin-left: 0;
+}
+
+a
+{
+	color: #000;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.demoHeader a
+{
+	color: #829360;
+	font-size: 12px;
+	color: white;
+}
+
+.demoHeader ul
+{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 24px;
+}
+
+.demoHeader ul li
+{
+	float: left;
+	list-style: none;
+	margin-right: 8px;
+}
+
+.xmlAtributes
+{
+	list-style: square;
+}
+
+.xmlAtributes code
+{
+	color: maroon;
+}
+
+.widgetScreenshot
+{
+	border: solid 1px #829360;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#000000,strength=3);
+}
+
+.BuyNowButton
+{
+	border: 0;
+}
+
+input
+{
+	width: 220px;
+}
+
+h1, h1 a
+{
+	font-size: 22px;
+	clear: both;
+	border-bottom: solid 1px white;
+	color: white;
+}
+
+.demoHeader h1 a
+{
+	font-size: 22px;
+	border: 0;
+	text-decoration: none;
+}

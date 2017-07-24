@@ -1,0 +1,31 @@
+<div id="reservation-details">
+	<h6 class="pane-title">Step 2: Reservation Details</h6>
+	<p class="info-bar">Please, choose check-in and check-out dates for your stay with our hotel.</p>
+	<p class="info-bar">If you are not coming alone, select number of guests from the dropdown below.</p>
+	<ul class="text-box-list">
+		<li><label for="number-of-guests">Number of Guests</label>
+			<select id="number-of-guests">
+				<option value="0" selected="selected">select...</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+
+			<span id="number-of-guests-validator" class="validator">0</span>
+		</li>
+		<li><label for="room-type">Room Type</label>
+			<select id="room-type">
+				<option value="0" selected="selected">select...</option>
+				<option value="single|50">single - USD50 per night</option>
+				<option value="double|70">double - USD70 per night</option>
+				<option value="apartment|100">apartment - USD100 per night</option>
+				<option value="studio|200">studio - USD200 per night</option>
+			</select>
+
+			<span id="room-type-validator" class="validator">0</span>
+		</li>
+		<li><label for="check-in-date">Check-in Date</label> <input type="text" readonly="readonly" id="check-in-date" name="checkindate" /> <span id="check-in-date-validator" class="validator">0</span></li>
+		<li><label for="check-out-date">Check-out Date</label> <input type="text" readonly="readonly" id="check-out-date" name="checkoutdate" /> <span id="check-out-date-validator" class="validator">0</span></li>
+	</ul>
+</div>
