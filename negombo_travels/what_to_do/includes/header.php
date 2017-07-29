@@ -8,7 +8,7 @@
 		
 		<form method="post" class="searchform" action="#">
 	<p>
-	<p><a href="http://www.facebook.com/Negombovisit" target="_blank"><img src="../images/social_media/facebook.png" alt="Sri Lanka Social Chanel"/></a><a href="http://plus.google.com/110759417015998876098/posts" target="_blank"><img src="../images/social_media/googleplus.png" alt="Google plus negombo"/></a>
+	<p><a href="https://www.facebook.com/holidayceylontours/" target="_blank"><img src="../images/social_media/facebook.png" alt="Sri Lanka Social Chanel"/></a><a href="http://plus.google.com/110759417015998876098/posts" target="_blank"><img src="../images/social_media/googleplus.png" alt="Google plus negombo"/></a>
 	
 	<a href="skype:gmi_rfernando?call" target="_blank"><img src= "../images/social_media/skype.png" alt="Skype Negombo Tours"/></a>
 	
@@ -20,7 +20,7 @@
 		</li>
 	
 	
-	<li><a href="../where_to_go/" onmouseover="mopen('m2')" onmouseout="mclosetime()">Where to Go</a>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Where to Go</a>
 		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_go_information			= new db_transaction;
@@ -31,7 +31,7 @@
 		?>
 		</div>
 	</li>
-	<li><a href="../what_to_see/" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
 		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_see_information			= new db_transaction;
@@ -44,7 +44,7 @@
 	</li>
 	
 	
-	<li><a href="" onmouseover="mopen('m4')" onmouseout="mclosetime()">What To Do</a>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">What To Do</a>
 		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_do_information			= new db_transaction;
@@ -58,7 +58,7 @@
 	
 	
 	
-	<li><a href="../itenary/" onmouseover="mopen('m5')" onmouseout="mclosetime()">Tour Packages </a>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Tour Packages </a>
 		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$itenery_information		= new db_transaction;

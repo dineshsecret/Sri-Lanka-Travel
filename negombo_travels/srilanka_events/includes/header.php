@@ -1,4 +1,3 @@
-
 <div id="wrap">
 	
 	<div id="header">
@@ -8,14 +7,11 @@
 		
 		<form method="post" class="searchform" action="#">
 	<p>
-	<a href="www.facebook.com/Negombovisit" target="_blank"><img src="<?php echo "../$url_path/";?>images/social_media/facebook.png" alt="Sri Lanka Social Chanel" border="0"/></a>
+	<p><a href="https://www.facebook.com/holidayceylontours/" target="_blank"><img src="../images/social_media/facebook.png" alt="Sri Lanka Social Chanel"/></a><a href="http://plus.google.com/110759417015998876098/posts" target="_blank"><img src="../images/social_media/googleplus.png" alt="Google plus negombo"/></a>
 	
-	<a href="https://plus.google.com/110759417015998876098/posts" target="_blank"><img src="<?php echo "../$url_path/";?>images/social_media/googleplus.png" alt="Google plus negombo" border="0"/></a>
+	<a href="skype:gmi_rfernando?call" target="_blank"><img src= "../images/social_media/skype.png" alt="Skype Negombo Tours"/></a>
 	
-	<a href="skype:gmi_rfernando?call" target="_blank"><img src="<?php echo "../$url_path/";?>images/social_media/skype.png" alt="Skype Negombo Tours" border="0"/></a>
-	
-	<a href="https://twitter.com/NegomoTours" target="_blank"><img src="<?php echo "../$url_path/";?>images/social_media/twitter.png" alt="Twit with Negombo Tours" border="0"/></a><a href="http://negombotourssrilanka.blogspot.com/" target="_blank"> <img src="<?php echo "../$url_path/";?>images/social_media/blogger.png" alt="Twit with Negombo Tours" border="0"/></a>
-	
+	<a href="https://twitter.com/NegomoTours" target="_blank"><img src="../images/social_media/twitter.png" alt="Twit with Negombo Tours"/></a><a href="http://negombotourssrilanka.blogspot.com/" target="_blank"><img src="../images/social_media/blogger.png" alt="Twit with Negombo Tours"/></a><a href="http://negombotravels.wordpress.com/" target="_blank"><img src="../images/social_media/word_press.png" title="Negombo Travel Word press blog"/></a>
 	<h2><span class="green">Call Now : +94 777722904 </span></h2>
 		</form>
 
@@ -35,7 +31,7 @@
 		?>
 		</div>
 	</li>
-	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
+	<li><a href="" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
 		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_see_information			= new db_transaction;
@@ -46,8 +42,6 @@
 		?>
 		</div>
 	</li>
-	
-	
 	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">What To Do</a>
 		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
@@ -55,13 +49,10 @@
 			$to_do_information_recset 	= $to_do_information->To_Do_Description();
 			
 			while($to_do_information_recset_list = mysql_fetch_assoc($to_do_information_recset)){
-			echo "<a href=what_to_do/index.php?what_to_do_id=$to_do_information_recset_list[what_to_do_id]>$to_do_information_recset_list[what_to_do]</a>"; }
+			echo "<a href=../what_to_do/index.php?what_to_do_id=$to_do_information_recset_list[what_to_do_id]>$to_do_information_recset_list[what_to_do]</a>"; }
 		?>
 		</div>
 	</li>
-	
-	
-	
 	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Tour Packages </a>
 		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
@@ -70,16 +61,16 @@
 			
 			while($itenery_detail_list = mysql_fetch_assoc($itenery_information_recset)){
 			echo "<a href=../itenary/index.php?itenery_id=$itenery_detail_list[itenary_id]>$itenery_detail_list[itenary_name]</a>"; }?>
+		</div>
 	</li>
 	
 	
-	
-    <li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">About Sri Lanka</a>
+	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">About Sri Lanka</a>
 		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="<?php echo "../$url_path";?>image_gallery.php">Image Gallery</a>
-        <a href="<?php echo "../$url_path";?>travel_tips.php">Travel Tips</a>
-        <a href="<?php echo "../$url_path";?>faq_sri_lanka.php">FAQs</a>
-		<a href="<?php echo "../$url_path";?>sri_lanka_visa.php">Sri Lanka VISA</a>
+		<a href="../image_gallery.php">Image Gallery</a>
+        <a href="../travel_tips.php">Travel Tips</a>
+        <a href="../faq_sri_lanka.php">FAQs</a>
+		<a href="../sri_lanka_visa.php">Sri Lanka VISA</a>
 		</div>
 	</li>
     
@@ -99,7 +90,8 @@
 		<a href="../about_us.php">About Us</a>
 		<a href="../services.php">Services</a>
 		<a href="../contact_us.php">Contact Us</a>
-		<a href="../guest_comments.php">Guest comments</a>
+		<a href="../comments.php">Guest comments</a>
+	
 		</div>
 	</li>
 

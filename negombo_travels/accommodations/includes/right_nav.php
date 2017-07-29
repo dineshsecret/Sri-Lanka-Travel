@@ -10,112 +10,11 @@ function googleTranslateElementInit() {
  </div><br />		
 	    <div id="side_bar_heading">Sri Lanka Accommodations
          <img src="images/spac.gif" alt="" width="1" height="3" /><br />
-         <form id="form1" method="post" action="">
-	       Hotels<br />
-	       <select name="select2" class="tiny_text" onchange="window.open(this.options[this.selectedIndex].value,'_top')" >
-       <option>-- Hotels--</option>
-       <?php 
-					
-				
-				$hotel_list			= new db_transaction;
-				$hotel_list_recset 	= $hotel_list->CallHotelActiveList();
-           			
-					
-					/*
-					while($row_page = mysql_fetch_assoc($hotel_list_recset)) {
-							//print_r($row_page);
-							
-							
-							echo " <option value=index.php?accom_id=$row_page[a_id]";
-		
-						if ($result_page == $row_page) { echo "selected"; }
-							
-							$hotel_name 	= $row_page['a_name'];
-							
-							if(strlen($hotel_name) > 21)
-							{
-								$hotel_name = substr($hotel_name,0,21);
-							}
-							echo ">", $hotel_name,"</option>\n";
-					
-					} 
-					
-					
-					*/
-		   ?>
-       </select>
-	       <br />
-	       <br />
-           Guest Houses | Bungalow<br/>
-           <select name="select2" class="tiny_text" onchange="window.open(this.options[this.selectedIndex].value,'_top')" >
-       <option>-- Select   --</option>
-       <?php 
-					
-				
-				$guest_house			= new db_transaction;
-				$guest_house_recset 	= $guest_house->CallGuestBungActiveList();
-				
-				/*
-           			while($row_page_guest = mysql_fetch_assoc($guest_house_recset)) {
-							//print_r($row_page);
-							
-							
-							echo " <option value=index.php?accom_id=$row_page_guest[a_id]";
-		
-						if ($result_page == $row_page_guest) { echo "selected"; }
-							
-							$hotel_name 	= $row_page_guest['a_name'];
-							
-							if(strlen($hotel_name) > 21)
-							{
-								$hotel_name = substr($hotel_name,0,21);
-							}
-							echo ">", $hotel_name,"</option>\n";
-					
-					} 
-					
-					*/
-					
-		   ?>
-       </select>
-           
-           <br/>
-           <br>
-           Home Stay<br/>
-           <select name="select" class="tiny_text" onchange="window.open(this.options[this.selectedIndex].value,'_top')" >
-             <option>-- Select  --</option>
-             <?php 
-					
-				
-				$home_list			= new db_transaction;
-				$home_list_recset 	= $home_list->CallHomeStayActiveList();
-				
-				
-				/*
-				while($row_page_guest = mysql_fetch_assoc($home_list_recset)) {
-							//print_r($row_page);
-							
-							
-							echo " <option value=index.php?accom_id=$row_page_guest[a_id]";
-		
-						if ($result_page == $row_page_guest) { echo "selected"; }
-							
-							$hotel_name 	= $row_page_guest['a_name'];
-							
-							if(strlen($hotel_name) > 21)
-							{
-								$hotel_name = substr($hotel_name,0,21);
-							}
-							echo ">", $hotel_name,"</option>\n";
-					
-					} 
-					
-				*/	
-		   ?>
-           </select>
-           <br>
-           <br />
-	     </form>
+        <img src="images/spac.gif" alt="" width="1" height="3" /><br />
+          <br /><br />
+            
+        <a href="../negombo_accommodations.php#tips"><img src="../images/search.jpg" alt="Hotels" class="timg" /></a>
+        
   </div>
 	   
 		<div id="side_bar_heading"><br />

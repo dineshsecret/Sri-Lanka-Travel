@@ -6,6 +6,8 @@ include '../db/db_transaction.php';
 $db_connection_call = new connaissance_db;
 $db_connection_call->dbconnection();
 
+//echo ($_GET['itenery_id']);
+
 if($_GET['itenery_id']==''){
 
 $itenary_id	 = 27;
@@ -40,13 +42,14 @@ while($itenery_detail_list = mysql_fetch_assoc($itenery_information_recset)){
 
 if($_GET['itenery_id'] !=''){
 
+ 
 $itenary_id					= $_GET['itenery_id'];
 $itenery_information		= new db_transaction;
 $itenery_information_recset = $itenery_information->Capture_Itenery_information($itenary_id);
 
 while($itenery_detail_list = mysql_fetch_assoc($itenery_information_recset)){
 	
-	$itenery_cat_id		= $itenery_detail_list['itenery_cat_id'];
+	 $itenery_cat_id		= $itenery_detail_list['itenery_cat_id'];
 	$city_id			= $itenery_detail_list['city_id'];
 	$itenery_name		= $itenery_detail_list['itenery_name'];
 	$itenery_intro		= $itenery_detail_list['itenery_intro'];

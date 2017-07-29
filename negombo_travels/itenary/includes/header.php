@@ -7,7 +7,7 @@
 		
 		<form method="post" class="searchform" action="#">
 	<p>
-	<p><a href="http://www.facebook.com/Negombovisit" target="_blank"><img src="../images/social_media/facebook.png" alt="Sri Lanka Social Chanel"/></a><a href="http://plus.google.com/110759417015998876098/posts" target="_blank"><img src="../images/social_media/googleplus.png" alt="Google plus negombo"/></a>
+	<p><a href="https://www.facebook.com/holidayceylontours/" target="_blank"><img src="../images/social_media/facebook.png" alt="Sri Lanka Social Chanel"/></a><a href="http://plus.google.com/110759417015998876098/posts" target="_blank"><img src="../images/social_media/googleplus.png" alt="Google plus negombo"/></a>
 	
 	<a href="skype:gmi_rfernando?call" target="_blank"><img src= "../images/social_media/skype.png" alt="Skype Negombo Tours"/></a>
 	

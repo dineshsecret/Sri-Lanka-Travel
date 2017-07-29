@@ -76,10 +76,10 @@
 	
 	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">Getting Around</a>
 		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-		<a href="<?php echo "../$url_path";?>image_gallery.php">Image Gallery</a>
-        <a href="<?php echo "../$url_path";?>travel_tips.php">Travel Tips</a>
-        <a href="<?php echo "../$url_path";?>faq_sri_lanka.php">FAQs</a>
-		<a href="<?php echo "../$url_path";?>sri_lanka_visa.php">Sri Lanka VISA</a>
+		<a href="../image_gallery.php">Image Gallery</a>
+        <a href="../travel_tips.php">Travel Tips</a>
+        <a href="../faq_sri_lanka.php">FAQs</a>
+		<a href="../sri_lanka_visa.php">Sri Lanka VISA</a>
 		</div>
 	</li>
     

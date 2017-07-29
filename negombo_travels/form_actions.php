@@ -63,8 +63,8 @@ switch ($switch_funct) {
 						  </tr>
 						</table>";
 				
-		$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
+		$headers = "From: $txt_email" . "\r\n" .
+    "Reply-To: $txt_email" . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 	mail($to, $subject, $message, $headers);
@@ -133,7 +133,7 @@ case "airport_pick":
 				
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'Cc: tours@srilankanegombo.com' . "\r\n";
+		$headers .= 'Cc: ruwan.ferdy@gmail.com' . "\r\n";
 		$headers .= "From: Air-Port Taxi pickup<$txt_email>" . "\r\n";
 		// Mail it
 		mail($to, $subject, $message, $headers);
@@ -166,8 +166,8 @@ case "tour_it":
 $to      = 'ruwan.ferdy@gmail.com';
 $subject = 'Own Tour Itenarary';
 $message = '<head><title>Customized Tour Inquiry </title></head><body><table width=700 bgcolor=#EFEFEF><tr><td width=179 bgcolor=#FFFFFF><strong>Full Name </strong></td><td width=509 bgcolor=#FFFFFF>$txt_fname</td></tr><tr><td bgcolor=#FFFFFF><strong>Email</strong></td>  <td bgcolor=#FFFFFF>$txt_email</td></tr><tr><td bgcolor=#FFFFFF><strong>Country </strong></td>    <td bgcolor=#FFFFFF>$country</td></tr><tr><td bgcolor=#FFFFFF><strong>Arrival Date </strong></td><td bgcolor=#FFFFFF>$txt_arr_dat</td></tr><tr><td bgcolor=#FFFFFF>Departure Date </td><td bgcolor=#FFFFFF>$txt_ret_dat</td></tr><tr><td bgcolor=#FFFFFF><strong>Number of Adults</strong></td><td bgcolor=#FFFFFF>$txt_adult </td></tr><tr><td bgcolor=#FFFFFF><strong>Number of Kids  :</strong></td><td bgcolor=#FFFFFF>$txt_kids</td></tr><tr><td bgcolor=#FFFFFF><strong>Air port pick up </strong></td><td bgcolor=#FFFFFF>$airport_pickup</td></tr><tr><td bgcolor=#FFFFFF><strong>Required Tour type </strong></td><td bgcolor=#FFFFFF>$tour_package</td></tr></table></body></html>';
-$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: tours@srilankanegombo.com' . "\r\n" .
+$headers = "From: $txt_email" . "\r\n" .
+    'Reply-To: ruwan.ferdy@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);
@@ -223,11 +223,11 @@ $_SESSION['success']='Thanks for contact Negombo Tours We will get back to you w
 			$other				= $_POST['other'];
 		
 		
-		$to  			= 'ruwant6@gmail.com' . ', '; 
+		$to  			= 'ruwan.ferdy@gmail.com' . ', '; 
 		$thanks_send  	= "$email" . ', ';
 		
-		$subject 		= 'Holiday Ceylon Online Hotel Reservstion Inquiry';
-		$subject_thanks = 'Thank you for Hotel Reservastion by Holiday Ceylon';
+		$subject 		= 'Negombo Travel & Tours';
+		$subject_thanks = 'Thank you for Hotel Reservastion by Negombo Travel & Tours';
 		
 		$message = "
 		<head>
@@ -297,57 +297,38 @@ $_SESSION['success']='Thanks for contact Negombo Tours We will get back to you w
 		
 		If you are cancel the hotel reservation after your confirmation,  you want to inform us by before exact time period.
 		Please refer this our terms and conditions link 
-		<a href=http://www.holidayceylon.com/termsandconditions.php>Terms & Conditions </a><br><br><br>
+		 <br><br><br>
 		
 		Thank you very much !!!<br>
-		Holiday Ceylon tour operators	<br><br><br>
+		Negombo Travel & Tours	<br><br><br>
 		
 		
 		<u><b>Sri Lanka</b></u><br>
 		Main Office<br>
-		Holiday Ceylon Tour Operators (PVT) Ltd<br>
+		Negombo Travel & Tours<br>
 		16A, Colombo Road,<br>
 		Negombo, Sri Lanka<br>
 		<br>
-		Telephone: +94 31 2221791 (Line open 9AM to 5PM local time in Sri Lanka)<br>
+		Telephone: +94 31 2279519 (Line open 9AM to 5PM local time in Sri Lanka)<br>
 		Hotline: +94 773 072721<br>
 		Fax: +94 31 2228442<br>
-		Email : <a href=mailto:tours@holidayceylon.com>tours@holidayceylon.com
+		Email : <a href=mailto:ruwan.ferdy@gmail.com>tours@holidayceylon.com
 </a><br>
-		web : <a href=http://www.holidayceylon.com>www.holidayceylon.com</a><br>
+		 <br>
 		<br>
 		
 		<u><b>UK, Europe</b></u>
 		<br>
-Holiday Ceylon Tour Operators (PVT) Ltd
-Northampton, <br>
-UK
-Tel. +44 77 0 2080 740 / Fax. +44 1604 758090
+ 
 <br>
-Email : <a href=mailto:tours@holidayceylon.com>tours@holidayceylon.com
-</a>
-<br>
-web : <a href=http://www.holidayceylon.com>www.holidayceylon.com</a>
-		
-<br>
-<br>
-<u><b>Dubai, Middle East</b></u>
-		<br>
-Holiday Ceylon Tour Operators (PVT) Ltd
-Dubai, <br>
-UAE
-Tel. +97 1501316251
-<br>
-Email : <a href=mailto:tours@holidayceylon.com>tours@holidayceylon.com
-</a><br>
-web : <a href=http://www.holidayceylon.com>www.holidayceylon.com</a>";
+  ";
 		
 		// To send HTML mail, the Content-type header must be set
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
 		// Additional headers
-		$headers .= "To: Managing Director UK <hotels@holidayceylon.com>" . "\r\n";
+		$headers .= "To: Managing Director UK <ruwan.ferdy@gmail.com>" . "\r\n";
 		$headers .= "From: Online Hotel Booking Inquiry from $email" . "\r\n";
 		
 		

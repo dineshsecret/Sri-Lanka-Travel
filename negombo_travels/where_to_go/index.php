@@ -8,7 +8,7 @@ $db_connection_call->dbconnection();
 
 
 
-if($_GET['what_to_Do_Cat_id']==''){
+//if($_GET['what_to_Do_Cat_id']==''){
 
 
 $what_to_Do_Cat_id				= 14;
@@ -33,12 +33,12 @@ while($whatsToDo_detail_list = mysql_fetch_assoc($what_to_do_recset)){
 
 	}
 
-}
+//}
 
-if($_GET['what_to_Do_Cat_id']!=''){
+//if($_GET['what_to_Do_Cat_id']!=''){
 
 //$what_to_see_id					= $_GET['what_to_see'];
-$what_to_Do_Cat_id			= $_GET['what_to_Do_Cat_id'];
+//$what_to_Do_Cat_id			= $_GET['what_to_Do_Cat_id'];
 
 $what_to_do					= new db_transaction;
 $what_to_do_recset 			= $what_to_do->What_To_Do_Cat_List($what_to_Do_Cat_id);
@@ -60,7 +60,7 @@ while($whatsToDo_detail_list = mysql_fetch_assoc($what_to_do_recset)){
 
 	}
 	
-}
+//}
 
 
 ?>

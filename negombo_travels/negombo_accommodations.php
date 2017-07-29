@@ -95,6 +95,7 @@ winslide.focus()
            			while($row_page_guest = mysql_fetch_assoc($guest_house_recset)) {
 							//print_r($row_page);
 							
+							$result_page ="";
 							
 							echo " <option value=accommodations/index.php?accom_id=$row_page_guest[a_id]";
 		

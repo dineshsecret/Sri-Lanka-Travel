@@ -155,6 +155,7 @@ winslide.focus()
 						if($pieces[5] !=''){
 							echo "<img src=images/icons/$pieces[5].png>";
 							}
+							/*
 							if($pieces[6] !=''){
 								echo "<img src=images/icons/$pieces[6].png> ";
 							}

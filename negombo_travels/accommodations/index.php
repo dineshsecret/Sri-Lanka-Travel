@@ -120,7 +120,7 @@ winslide.focus()
             
     		  <p><h1><span class="green"><b><u>
 			  <?php echo $a_name;?></u></b>  (<?php echo "$a_rating";?> star) </span><br><br><?php
-			$pieces = explode(",", $other_facilities);
+			/*$pieces = explode(",", $other_facilities);
 			if($pieces[0] !=''){
 				echo "<img src=images/icons/$pieces[0].png > ";
 				}
@@ -165,7 +165,7 @@ winslide.focus()
 													}
 											if($pieces[14] !=''){
 												echo "<img src=images/icons/$pieces[14].png> ";
-											}
+											}*/
 										/*if($pieces[15] !=''){
 											echo "<img src=images/icons/$pieces[15].png> ";
 										}

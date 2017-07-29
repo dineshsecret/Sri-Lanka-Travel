@@ -9,7 +9,7 @@ $url_path="../negombo_travels";
 		
 		<form method="post" class="searchform" action="#">
 	
-	      <p> <a href="http://facebook.com/Negombovisit/" target="_blank"><img src="<?php echo "$url_path/";?>images/social_media/facebook.png" title="Negombo Travel & Tours in Facebook"/></a> 
+	      <p> <a href="https://www.facebook.com/holidayceylontours/" target="_blank"><img src="<?php echo "$url_path/";?>images/social_media/facebook.png" title="Negombo Travel & Tours in Facebook"/></a> 
 		  
 		  <a href="https://plus.google.com/109772878999822580377/posts" target="_blank"><img src="<?php echo "$url_path/";?>images/social_media/googleplus.png" title="Negombo Travel & Tours in Google+"/></a>
 		  
@@ -26,7 +26,7 @@ $url_path="../negombo_travels";
 		</li>
 	
 	
-	<li><a href="where_to_go/" onmouseover="mopen('m2')" onmouseout="mclosetime()">Where to Go</a>
+	<li><a href="where_to_go/index.php?what_to_Do_Cat_id=13" onmouseover="mopen('m2')" onmouseout="mclosetime()">Where to Go</a>
 		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_go_information			= new db_transaction;
@@ -39,7 +39,7 @@ $url_path="../negombo_travels";
 	</li>
 	
 	
-	<li><a href="what_to_see/" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">What To See</a>
 		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_see_information			= new db_transaction;
@@ -52,7 +52,7 @@ $url_path="../negombo_travels";
 	</li>
 	
 	
-	<li><a href="what_to_do/" onmouseover="mopen('m4')" onmouseout="mclosetime()">What To Do</a>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">What To Do</a>
 		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		<?php 
 			$to_do_information			= new db_transaction;
@@ -68,7 +68,7 @@ $url_path="../negombo_travels";
 	
 	
 	
-	<li><a href="itenary/" onmouseover="mopen('m5')" onmouseout="mclosetime()">Tour Packages </a>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Tour Packages </a>
 		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
 		
 		<?php 

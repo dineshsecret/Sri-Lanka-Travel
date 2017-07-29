@@ -472,18 +472,12 @@ $db_connection_call->dbconnection();
                 <br />
                 Land : +94 312279519<br />
                   Mobile : +94 777722904<br />
-              E-Mail : info(at)negombotravels.com</p>
-              <p><strong><u>Middle East</u></strong> <br />
-                Gulf Jewels Tours
-130, <br />
-Athaibah
-Muscat
-Sultanate of Oman
-
-<br />
-Tel 	: + 968 24498513 / Fax: + 968 24498512
-<br />
-Mob 	: 0096893526144</p></td>
+              E-Mail : ruwan.ferdy(@)gmail.com</p>
+                <p><strong><u>Australia</u></strong> <br />
+                  51 Bilby Street craigieburn Vic 3064<br />
+                  Australia <br />
+                  mob : 0424776859<br />
+                email : dineshsecret (at) gmail.com </p></td>
             </tr>
           </table>
           

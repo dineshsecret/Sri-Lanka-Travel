@@ -38,9 +38,9 @@
 Daluwakotuwa ,<br />
 Kotchchikade,<br />
 Negombo , Sri Lanka </p>
-		<p class="align-right">Land : +94 312279519<br />
+	  <p class="align-right">Land : +94 312279519<br />
 		  Mobile : +94 777722904 <br />
-E-Mail : <a href="mailto:tours%28at%29negombotravels.com">tours(at)negombotravels.com</a></p>
+	  </p>
   </div>
 	
 </div>
